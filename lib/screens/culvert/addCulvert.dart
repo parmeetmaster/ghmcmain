@@ -768,10 +768,10 @@ class _AddCulvertScreenState extends State<AddCulvertScreen> {
       return;
     }
 
-    if (_selected_area == null) {
+  /*  if (_selected_area == null) {
       "Please Select Area".showSnackbar(context);
       return;
-    }
+    }*/
 
     if (culvertTypeValue == null) {
       "Please Select Culvert Type".showSnackbar(context);
@@ -808,7 +808,7 @@ class _AddCulvertScreenState extends State<AddCulvertScreen> {
         Provider.of<CulvertProvider>(context, listen: false);
     ApiResponse resp = await culvert_provider.add_culvert(
       ward: _selected_ward!.id!,
-      area: _selected_area!.id!,
+      area: _selected_area?.id??"",
       landmark: landmark.text,
       culvert_name: culvert_name.text,
       culvertType: culvertTypeValue!,

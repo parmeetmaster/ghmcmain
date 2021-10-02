@@ -37,4 +37,4 @@ String? fcmToken = '';
 const login_credentials =
     "login_credentials"; // 🧊 this is used for shared preferences
 const google_place_api_key =
-    "AIzaSyDFUPgy5FpZkVED-9CBHlIsNeEVqMVolWA"; // 🗾 google map credentials
+    "AIzaSyB60Gyl8gwW5CC9NitMau75O3zEgI4MzO8"; // 🗾 google map credentials

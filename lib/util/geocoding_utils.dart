@@ -75,7 +75,7 @@ class GeoUtils {
     }
     return await getGeoDatafromLocation(locationData, context).then((value) {
       if(value!.can_use==true){
-        return value!.statename;
+        return value.statename;
       }
       else
         return "";

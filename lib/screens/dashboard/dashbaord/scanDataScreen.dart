@@ -198,7 +198,7 @@ class _ScanDataScreenState extends State<ScanDataScreen> {
                       address:
                           "none",
                       longitude: '${data!.longitude}',
-                      latitude: '${data.longitude}',
+                      latitude: '${data.latitude}',
                     );
                     if (response!.status == 200) {
                       _image = null;

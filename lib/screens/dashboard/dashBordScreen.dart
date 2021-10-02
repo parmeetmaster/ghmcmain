@@ -333,11 +333,7 @@ class _DashBoardScreenState extends State<DashBoardScreen>
     } else if (Globals.getUserData()!.data!.departmentId == "4") {
       showTransferScreen(model, qrdata);
     }
-    // else
-    //   if (Globals.getUserData()!.data!.departmentId == "10" ||
-    //     Globals.userData!.data!.departmentId == "1") {
-    //   showCulvertScreen(model, qrdata);
-    // }
+
   }
 
   int flexleft = 3;
